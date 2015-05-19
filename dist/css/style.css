@@ -1,0 +1,39 @@
+label {
+  overflow: hidden;
+  display: block; }
+  label div, label input {
+    float: left; }
+  label div {
+    width: 100px; }
+
+.output {
+  color: green; }
+
+.maze-row {
+  overflow: hidden; }
+  .maze-row .maze-cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    float: left;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px; }
+    .maze-row .maze-cell.wall {
+      background: #000; }
+    .maze-row .maze-cell.active {
+      background: yellow; }
+
+.maze-controls button {
+  background: #3333cc;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  border: 0;
+  display: inline-block;
+  margin-bottom: 3px; }
+  .maze-controls button.up, .maze-controls button.down {
+    margin-left: 25px; }
+
+/*# sourceMappingURL=style.css.map */

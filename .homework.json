@@ -1,0 +1,14 @@
+{
+    "name": "javascript-form-functions",
+    "version": "0.0.1",
+    "title": "JavaScript form functions",
+    "description": "Practice crating JavaScript functions that are connected to forms.",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "JavaScript",
+        "forms",
+        "functions"
+    ]
+}
