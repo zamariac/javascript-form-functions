@@ -27,6 +27,33 @@ function stringLength(string){
 	else if (string.length > 10){
 		return "long string"
 	}
-	
 
 }
+
+function startsWith(string) {
+	if (string.charAt(0)=== "a" || string.charAt(0)=== "A"){
+		return "starts with A";
+	}
+	else if (string.charAt(0)=== "b" || string.charAt(0)=== "B"){
+		return "starts with B";
+	}
+	else if (string.charAt(0)=== "c" || string.charAt(0)=== "C"){
+		return "starts with C";
+	}
+	else if (string.charAt(0)=== "d" || string.charAt(0)=== "D"){
+		return "starts with D";
+	}
+	else if (string.charAt(0)=== "e" || string.charAt(0)=== "E"){
+		return "starts with E";
+	}
+	else {
+		return "starts with something else"
+	}
+
+}
+
+
+
+
+
+
