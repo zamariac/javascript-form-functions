@@ -52,6 +52,26 @@ function startsWith(string) {
 
 }
 
+function stringRepeat(string, number) {
+	  
+
+	}
+
+
+
+
+
+
+
+
+function countLetters(inputString) {
+	var numAs = 0;
+	for var i=0; i< inputstring.length; i++) {
+		if (inputString.charAt(i) === 'a') {
+			numAs = nuMas +1;
+		}
+}
+	return numAs
 
 
 
