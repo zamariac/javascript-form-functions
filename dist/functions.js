@@ -73,6 +73,12 @@ function nSum(n){
     return otherNum;
 }
 
+function join(candyBar, separator){
+
+	return candyBar.join(separator);
+ 
+}
+
 
 
 
